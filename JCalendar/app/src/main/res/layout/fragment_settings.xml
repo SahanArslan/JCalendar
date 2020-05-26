@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="100dp"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:background="@color/white">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/ic_music_note_black_24dp"/>
+            <Button
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:text="Set Ring Tune"
+                android:textColor="@color/selected_color"
+                android:id="@+id/setTune"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/ic_access_alarm_black_24dp"/>
+            <Button
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:text="Set Default Alarm Time"
+                android:textColor="@color/selected_color"
+                android:id="@+id/setTime"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/ic_repeat_black_24dp"/>
+            <Button
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:text="Set Default Repeater"
+                android:textColor="@color/selected_color"
+                android:id="@+id/setRepeater"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/ic_wb_sunny_black_24dp"/>
+            <Switch
+                android:id="@+id/switchMod"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Dark Mode"
+                android:textColor="@color/selected_color"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_save_black_24dp"/>
+        <Button
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:text="Save"
+            android:textColor="@color/selected_color"
+            android:id="@+id/saveSettings"/>
+    </LinearLayout>
+
+</LinearLayout>

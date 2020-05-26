@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/ic_date_range_black_24dp"
+        android:title="@string/calendar"
+        android:id="@+id/calendar" />
+    <item
+        android:icon="@drawable/ic_event_note_black_24dp"
+        android:title="@string/events"
+        android:id="@+id/events"/>
+    <item
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="@string/settings"
+        android:id="@+id/settings"/>
+</menu>

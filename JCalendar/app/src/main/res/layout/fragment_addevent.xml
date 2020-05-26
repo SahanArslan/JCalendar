@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="50dp"
+            android:layout_marginTop="50dp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:background="@color/white">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/editName"
+                android:textColor="@color/selected_color"
+                android:textColorHint="@color/selected_color"
+                android:hint="Event Name"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/editContent"
+                android:textColor="@color/selected_color"
+                android:textColorHint="@color/selected_color"
+                android:inputType="textMultiLine"
+                android:layout_gravity="top"
+                android:textStyle="normal"
+                android:gravity="start|top"
+                android:hint="Event Content"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/editStart"
+                android:textColor="@color/selected_color"
+                android:textColorHint="@color/selected_color"
+                android:hint="Begining Date"
+                android:inputType="date"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/editEnd"
+                android:textColor="@color/selected_color"
+                android:textColorHint="@color/selected_color"
+                android:hint="Ending Date"
+                android:inputType="date"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/ic_add_alarm_black_24dp"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    android:text="Add Alarm"
+                    android:textColor="@color/selected_color"
+                    android:id="@+id/buttonAlarm"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/ic_repeat_black_24dp"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    android:text="Add Repeat"
+                    android:textColor="@color/selected_color"
+                    android:id="@+id/buttonRepeat"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/ic_add_location_black_24dp"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    android:text="Add Location"
+                    android:textColor="@color/selected_color"
+                    android:id="@+id/buttonLocation"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/ic_save_black_24dp"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    android:text="Save"
+                    android:textColor="@color/selected_color"
+                    android:id="@+id/buttonSave"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+</RelativeLayout>
